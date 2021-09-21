@@ -1,0 +1,35 @@
+body {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; 
+    margin: 0 auto;
+}
+
+/* En-Tête */
+
+header nav {
+    display: flex;
+    justify-content: right;
+}
+
+figcaption {
+    margin-top: 20px;
+}
+
+figcaption > span {
+    color: #d87922;
+}
+
+header nav a {
+    text-decoration: none;
+}
+
+/* Contenu Principal */
+
+main {
+    width: 580px;
+}
+
+aside {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
